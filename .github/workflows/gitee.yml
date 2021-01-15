@@ -27,3 +27,4 @@ jobs:
       run: |
         git switch -c master
         git remote add gitee git@gitee.com:gogobody/img_bed_actions.git
+        git push --set-upstream gitee master -f
